@@ -7,7 +7,6 @@ public class Main {
         task3();
         task4();
     }
-
     public static void task1() {
         int[] arr = generateRandomArray();
         System.out.println("задание 1");
@@ -18,7 +17,6 @@ public class Main {
         }
         System.out.println("Сумма трат за месяц составила " + consumption + " рублей.");
     }
-
     public static void task2() {
         int[] arr = generateRandomArray();
         System.out.println(Arrays.toString(arr));
@@ -56,7 +54,6 @@ public class Main {
             reverseFullName[reverseFullName.length-1-i] = lastFirst;
         }
         System.out.print(new String(reverseFullName) + ".");
-
     }
     public static int[] generateRandomArray() {
         java.util.Random random = new java.util.Random();
